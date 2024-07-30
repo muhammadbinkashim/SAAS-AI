@@ -18,6 +18,17 @@
     snakecase-keys "5.4.4"
     tslib "2.4.1"
 
+"@clerk/backend@^1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@clerk/backend/-/backend-1.4.3.tgz#2f734b86294b6479c0b29d551e39fb7e6772e6ca"
+  integrity sha512-wj4qsZO6iNiY9vF7vLH5v1f3oLh1yCLgFa0PedLzJAIJgepZl23C1/ubrRm7vyewjQEMHZwod4816mZlHDfoqA==
+  dependencies:
+    "@clerk/shared" "2.4.1"
+    "@clerk/types" "4.9.1"
+    cookie "0.5.0"
+    snakecase-keys "5.4.4"
+    tslib "2.4.1"
+
 "@clerk/clerk-react@5.2.7":
   version "5.2.7"
   resolved "https://registry.yarnpkg.com/@clerk/clerk-react/-/clerk-react-5.2.7.tgz#423755386ff1c589fefc1987adee054d32fa42eb"
@@ -51,10 +62,28 @@
     std-env "^3.7.0"
     swr "^2.2.0"
 
+"@clerk/shared@2.4.1":
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/@clerk/shared/-/shared-2.4.1.tgz#838d6ab2322f97eba9364a6a984055161a5b926b"
+  integrity sha512-sApuz6hDRIai4Jwo/fBcihX74+DdrKLt08LkEVrooh/7zc0ipDOSGlqmAy15yNuKPaxpemp/9nW4T8gq6uIr9Q==
+  dependencies:
+    "@clerk/types" "4.9.1"
+    glob-to-regexp "0.4.1"
+    js-cookie "3.0.5"
+    std-env "^3.7.0"
+    swr "^2.2.0"
+
 "@clerk/types@4.7.0":
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/@clerk/types/-/types-4.7.0.tgz#8aacc4f449cd0ea7cca1cb7f31eaab41e046ed73"
   integrity sha512-Gg4zEZLE7wgByMhgHMU69tkIEwfiFKNSbtRwdtAwrW+Pg0blpVpw7XuN0wHNAYFM2COrrKEUaGt8KWZmmdTFbg==
+  dependencies:
+    csstype "3.1.1"
+
+"@clerk/types@4.9.1":
+  version "4.9.1"
+  resolved "https://registry.yarnpkg.com/@clerk/types/-/types-4.9.1.tgz#9fddc160fdc729caa71bdacce717b99af01fda2c"
+  integrity sha512-fCmqzPBFh0rH9TlUVPpvPW225DtGJDuCv5GecwuuzD8hcgwGetTfRSDRNl5Dub5aJuqYWGQQCCnKfnfCrhZvrA==
   dependencies:
     csstype "3.1.1"
 
@@ -89,6 +118,11 @@
   version "8.57.0"
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.57.0.tgz#a5417ae8427873f1dd08b70b3574b453e67b5f7f"
   integrity sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==
+
+"@hono/clerk-auth@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@hono/clerk-auth/-/clerk-auth-2.0.0.tgz#afeefb8110b6b44b09c631b00bb9594b49873eb0"
+  integrity sha512-ad+U8jDlBPgXBTv8BRnPrSFC/uX8U0ojiCR77I3WWHm5I9L3/bHsZpQ2lgvLTV3YbJyVmAdKJArEAQiPjodGdA==
 
 "@hono/zod-validator@^0.2.2":
   version "0.2.2"
